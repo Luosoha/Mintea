@@ -1,2 +1,1 @@
 # Mintea
-# My graduate thesis
