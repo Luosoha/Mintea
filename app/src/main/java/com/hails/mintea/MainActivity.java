@@ -1,13 +1,13 @@
 package com.hails.mintea;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import com.gemvietnam.base.ContainerActivity;
+import com.gemvietnam.base.viper.ViewFragment;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ContainerActivity {
 
   @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(savedInstanceState);
-    setContentView(R.layout.activity_main);
+  public ViewFragment onCreateFirstFragment() {
+    return (ViewFragment) new HomePresenter(this).getFragment();
   }
+
 }
