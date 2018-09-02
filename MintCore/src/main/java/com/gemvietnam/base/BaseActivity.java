@@ -18,6 +18,8 @@ import android.widget.EditText;
 
 import java.util.List;
 
+import butterknife.ButterKnife;
+
 /**
  * Base activity
  * Created by neo on 2/5/2016.
@@ -63,6 +65,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 //    overridePendingTransition(CoreDefault.ANIM_IN, CoreDefault.ANIM_OUT);
     setContentView(getLayoutId());
     // Inject views
+    ButterKnife.bind(this);
 
     // Prepare layout
     initLayout();

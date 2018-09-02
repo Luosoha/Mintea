@@ -17,6 +17,8 @@ import android.view.animation.AnimationUtils;
 
 import java.lang.reflect.Field;
 
+import butterknife.ButterKnife;
+
 /**
  * Base Fragment
  * Created by neo on 3/22/2016.
@@ -52,6 +54,7 @@ public abstract class BaseFragment extends Fragment {
     mRootView = inflater.inflate(getLayoutId(), container, false);
 
     // Inject views
+    ButterKnife.bind(this, mRootView);
 
     mRootView.setClickable(true);
     return mRootView;

@@ -8,11 +8,15 @@ import com.hails.mintea.R;
  */
 
 public class LoginFragment extends ViewFragment<LoginContract.Presenter>
-implements LoginContract.View{
+        implements LoginContract.View {
 
-  @Override
-  protected int getLayoutId() {
-    return R.layout.fragment_login;
-  }
+    @Override
+    protected int getLayoutId() {
+        return R.layout.fragment_login;
+    }
 
+    @Override
+    public void initLayout() {
+        super.initLayout();
+    }
 }

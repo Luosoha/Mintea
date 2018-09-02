@@ -35,6 +35,8 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile "com.google.guava:guava:${guavaVersion}"
     compile "org.greenrobot:eventbus:${eventbusVersion}"
+    implementation "com.jakewharton:butterknife:${butterKnifeVersion}"
+    annotationProcessor "com.jakewharton:butterknife-compiler:${butterKnifeVersion}"
     // UI test
 //    compile "com.android.support.test.espresso:espresso-idling-resource:${espressoVersion}"
     // Resolve conflicts between main and test APK:

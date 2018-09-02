@@ -6,18 +6,19 @@ import android.support.annotation.Nullable;
 
 import com.gemvietnam.base.ContainerActivity;
 import com.gemvietnam.base.viper.ViewFragment;
-import com.hails.mintea.screen.login.LoginPresenter;
+import com.hails.mintea.screen.welcome.WelcomePresenter;
 
 public class MainActivity extends ContainerActivity {
 
-  @Override
-  public ViewFragment onCreateFirstFragment() {
-    return (ViewFragment) new LoginPresenter(this).getFragment();
-  }
+    @Override
+    public ViewFragment onCreateFirstFragment() {
+        setTheme(R.style.AppTheme);
+        return (ViewFragment) new WelcomePresenter(this).getFragment();
+    }
 
-  @Override
-  public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-    setTheme(R.style.AppTheme);
-    super.onCreate(savedInstanceState, persistentState);
-  }
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
+
+        super.onCreate(savedInstanceState, persistentState);
+    }
 }
