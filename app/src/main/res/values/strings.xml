@@ -3,4 +3,7 @@
     <string name="app_name">Mintea</string>
     <string name="label_login">Đăng nhập</string>
     <string name="label_register">Đăng ký</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Mật khẩu</string>
+    <string name="label_create_account">Tạo tài khoản</string>
 </resources>

@@ -10,14 +10,12 @@ import com.gemvietnam.base.viper.interfaces.PresentView;
 
 public interface LoginContract {
   interface Interactor extends IInteractor<Presenter> {
-
   }
 
   interface View extends PresentView<Presenter> {
-
   }
 
   interface Presenter extends IPresenter<View, Interactor> {
-
+      void login(String email, String password);
   }
 }
