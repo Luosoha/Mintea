@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':MyCore'
+project(':MyCore').projectDir = new File('MintCore')

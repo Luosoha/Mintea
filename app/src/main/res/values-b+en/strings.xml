@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mintea</string>
+    <string name="label_login">Login</string>
+    <string name="label_register">Register</string>
+</resources>
