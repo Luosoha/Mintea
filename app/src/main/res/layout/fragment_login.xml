@@ -28,7 +28,9 @@
     <EditText
         android:id="@+id/edit_text_email"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:text="luongsonhai96@gmail.com" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,12 +41,14 @@
     <EditText
         android:id="@+id/edit_text_password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:text="a1234567" />
 
     <Button
         android:id="@+id/button_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/label_create_account" />
+        android:text="@string/label_login" />
 </LinearLayout>

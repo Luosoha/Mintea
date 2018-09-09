@@ -6,4 +6,9 @@
     <string name="label_email">Email</string>
     <string name="label_password">Mật khẩu</string>
     <string name="label_create_account">Tạo tài khoản</string>
+    <string name="label_home">Trang chủ</string>
+    <string name="label_search">Tìm kiếm</string>
+    <string name="label_friends">Bạn bè</string>
+    <string name="label_notifications">Thông báo</string>
+    <string name="error_login">Có lỗi xảy ra, xin vui lòng thử lại.</string>
 </resources>
