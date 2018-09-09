@@ -1,9 +1,5 @@
 package com.hails.mintea.screen.authenticate;
 
-import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
-
 import com.gemvietnam.base.ContainerActivity;
 import com.gemvietnam.base.viper.ViewFragment;
 import com.hails.mintea.R;

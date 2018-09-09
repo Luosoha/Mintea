@@ -99,10 +99,10 @@ public class ActivityUtils {
           });
         }
       } else {
-        transaction.add(frameId, fragment, tag);
+        transaction.replace(frameId, fragment, tag);
       }
     } else {
-      transaction.add(frameId, fragment, tag);
+      transaction.replace(frameId, fragment, tag);
     }
 //    transaction.commit();
     transaction.commitAllowingStateLoss();
@@ -126,7 +126,7 @@ public class ActivityUtils {
     if (addToBackStack) {
       transaction.addToBackStack(tag);
     }
-    transaction.add(frameId, fragment);
+    transaction.replace(frameId, fragment);
     transaction.commit();
   }
 
