@@ -1,4 +1,4 @@
-package com.hails.mintea.screen.login;
+package com.hails.mintea.screen.authenticate.login;
 
 import android.widget.EditText;
 import android.widget.Toast;

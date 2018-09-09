@@ -1,6 +1,5 @@
-package com.hails.mintea.screen.welcome;
+package com.hails.mintea.screen.authenticate.welcome;
 
-import android.view.View;
 import android.widget.Button;
 
 import com.gemvietnam.base.viper.ViewFragment;

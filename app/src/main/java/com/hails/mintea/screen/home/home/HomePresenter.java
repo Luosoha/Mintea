@@ -1,9 +1,7 @@
-package com.hails.mintea.screen.home;
+package com.hails.mintea.screen.home.home;
 
 import com.gemvietnam.base.viper.Presenter;
 import com.gemvietnam.base.viper.interfaces.ContainerView;
-import com.hails.mintea.screen.login.LoginPresenter;
-import com.hails.mintea.screen.register.RegisterPresenter;
 
 /**
  * Created by HaiLS on 26/08/2018.

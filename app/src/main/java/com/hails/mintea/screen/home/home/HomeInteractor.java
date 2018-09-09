@@ -1,4 +1,4 @@
-package com.hails.mintea.screen.home;
+package com.hails.mintea.screen.home.home;
 
 import com.gemvietnam.base.viper.Interactor;
 

@@ -1,4 +1,4 @@
-package com.hails.mintea.screen.welcome;
+package com.hails.mintea.screen.authenticate.welcome;
 
 import com.gemvietnam.base.viper.Interactor;
 

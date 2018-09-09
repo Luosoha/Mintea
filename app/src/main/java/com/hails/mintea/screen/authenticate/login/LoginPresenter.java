@@ -1,7 +1,7 @@
-package com.hails.mintea.screen.login;
+package com.hails.mintea.screen.authenticate.login;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.widget.Toast;
 
 import com.gemvietnam.base.viper.Presenter;
 import com.gemvietnam.base.viper.interfaces.ContainerView;
@@ -9,7 +9,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.hails.mintea.screen.home.HomePresenter;
+import com.hails.mintea.screen.home.HomeActivity;
 
 /**
  * Created by HaiLS on 26/08/2018.
@@ -37,7 +37,7 @@ public class LoginPresenter extends Presenter<LoginContract.View, LoginContract.
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            new HomePresenter(mContainerView).pushView();
+                            getViewContext().startActivity(new Intent(getViewContext(), HomeActivity.class));
                         } else {
                             mView.showError(task);
                         }

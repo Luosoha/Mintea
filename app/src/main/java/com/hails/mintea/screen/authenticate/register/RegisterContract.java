@@ -1,4 +1,4 @@
-package com.hails.mintea.screen.register;
+package com.hails.mintea.screen.authenticate.register;
 
 import com.gemvietnam.base.viper.interfaces.IInteractor;
 import com.gemvietnam.base.viper.interfaces.IPresenter;

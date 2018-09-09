@@ -1,4 +1,4 @@
-package com.hails.mintea.screen.register;
+package com.hails.mintea.screen.authenticate.register;
 
 import android.support.annotation.NonNull;
 import android.widget.Toast;

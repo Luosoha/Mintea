@@ -1,13 +1,7 @@
-package com.hails.mintea.screen.home;
-
-import android.widget.Button;
+package com.hails.mintea.screen.home.home;
 
 import com.gemvietnam.base.viper.ViewFragment;
 import com.hails.mintea.R;
-
-import butterknife.BindView;
-import butterknife.OnClick;
-import butterknife.Optional;
 
 /**
  * Created by HaiLS on 26/08/2018.
